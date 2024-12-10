@@ -71,12 +71,14 @@ content:
         - title: 인덕대학교 컴퓨터전자공학과 조교
           sub_title: 사원
           caption: 2022.02 ~ 2023.01 (1년)
+          description: | # this will include new lines to allow paragraphs
+            담당과 조교
 
         - title: KMTL 기술부
           sub_title: 사원
           caption: 2021.07 ~ 2022.01 (7개월)
           description: | # this will include new lines to allow paragraphs
-          건설 다리, 터널 내부, 지하 터널 내부 및 경사로 안전 검사
+            건설 다리, 터널 내부, 지하 터널 내부 및 경사로 안전 검사
 
   - title: 학력
     layout: list
