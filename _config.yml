@@ -17,7 +17,7 @@ blog : https://blog.naver.com/dudgus3424/223204157134
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  YoungHyun-c
@@ -83,11 +83,11 @@ content:
     layout: list
     content:
         - title: 인덕대학교
-          sub_title: 정보통신공학과  학점  4/4.5
+          sub_title: 정보통신공학 학점  4/4.5
           caption: Date Range (eg. 2022 - 2023)
 
         - title: 인덕대학교
-          sub_title: 컴퓨터전자공학과 학점 3.74/4.5
+          sub_title: 컴퓨터전자공학 학점 3.74/4.5
           caption: Date Range (eg. 2016 - 2021)
 
   - title: A Little More About Me
