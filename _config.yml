@@ -13,10 +13,7 @@ email: dudgus614@naver.com
 phone: 010-3424-1433
 # phone_title: Phone (Phone title override)
 website: https://github.com/YoungHyun-c?tab=repositories
-youtube:
-  channel:
-    - name : minichamchi7549
-    #https://www.youtube.com/@minichamchi7549
+youtube: https://www.youtube.com/@minichamchi7549
 blog : https://blog.naver.com/dudgus3424/223204157134
 # website_title: Web (Website title override)
 
@@ -25,22 +22,7 @@ darkmode: false
 
 # Social links
 github_username:  YoungHyun-c
-youtube_username: https://www.youtube.com/@minichamchi7549
-@Data
-@Component
-@ConfigurationProperties("Youtube")
-public class YoutubeProperty {
-    private List<Youtube> channel;
-    
-     public YoutubeProperty(List<Map<String, String>> channel) {
-        this.channel = channel;
-    }
-
-    public List<Map<String, String>> getChannel() {
-        return channel;
-    }
-
-}
+youtube_username: /@minichamchi7549
 
 # Additional icon links
 additional_links:
