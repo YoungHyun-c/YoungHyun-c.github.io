@@ -36,12 +36,14 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/Profile.png (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 저는 신입 프로그래머가 되기 위해 여러 가지를 배워오며 게임 개발을 통해 다양한 것을 배우게 되었습니다.
+  안녕하세요.
+   저는 신입 프로그래머가 되기 위해 여러 가지를 배워오며 게임 개발을 통해 다양한 것을 배우게 되었습니다.
   저는 문제 해결을 위해 끊임없이 생각하고 다양한 직무를 통해 여러 가지 경험을 해왔습니다. 앞으로도 같이 일하고 싶은
   직원이 되도록 노력할 것 입니다.
   
+
   <strong>기술 스택<strong>
     - Lists
     - 언어 - <mark>C++, Python</mark>
@@ -56,41 +58,37 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Projects
         link: https://www.miricanvas.com/v/133dimt
-        link_text: Portpolio Link
+        link_text: Portpolio Link (https://www.miricanvas.com/v/133dimt)
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: https://github.com/YoungHyun-c?tab=repositories
-        quote: >
-          overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          게임 포트폴리오를 통한 기술 문서입니다.
   - title: 경력, 경험
     layout: list
     content:
-      - layout: left
-        title: 인덕대학교 컴퓨터전자공학과 조교
-        sub_title: 사원
-        caption: 2022.02 ~ 2023.01 (1년)
+        - title: 인덕대학교 컴퓨터전자공학과 조교
+          sub_title: 사원
+          caption: 2022.02 ~ 2023.01 (1년)
 
-        title: KMTL 기술부
-        sub_title: 사원
-        caption: 2021.07 ~ 2022.01 (7개월)
+        - title: KMTL 기술부
+          sub_title: 사원
+          caption: 2021.07 ~ 2022.01 (7개월)
+          description: | # this will include new lines to allow paragraphs
+          건설 다리, 터널 내부, 지하 터널 내부 및 경사로 안전 검사
+
   - title: 학력
     layout: list
     content:
-      - layout: left
-        title: 인덕대학교
-        sub_title: 정보통신공학과
-        caption: Date Range (eg. 2022 - 2023)
-        quote: >
-          학점 : 4 / 4.5
+        - title: 인덕대학교
+          sub_title: 정보통신공학과 (학점 : 4 / 4.5)
+          caption: Date Range (eg. 2022 - 2023)
 
-        title: 인덕대학교
-        sub_title: 컴퓨터전자공학과
-        caption: Date Range (eg. 2016 - 2021)
-        quote: >
-            학점 : 3.74 / 4.5
+        - title: 인덕대학교
+          sub_title: 컴퓨터전자공학과 (학점 : 3.74 / 4.5)
+          caption: Date Range (eg. 2016 - 2021)
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
