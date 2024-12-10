@@ -69,7 +69,6 @@ content:
     layout: list
     content:
         - title: 인덕대학교<br>컴퓨터전자공학과 조교
-          sub_title: 조교
           caption: 2022.02 ~ 2023.01 (1년)
           description: | # this will include new lines to allow paragraphs
             담당과 조교
@@ -84,11 +83,11 @@ content:
     layout: list
     content:
         - title: 인덕대학교
-          sub_title: 정보통신공학과  학점  4 / 4.5
+          sub_title: 정보통신공학과  학점  4/4.5
           caption: Date Range (eg. 2022 - 2023)
 
         - title: 인덕대학교
-          sub_title: 컴퓨터전자공학과 학점 3.74 / 4.5
+          sub_title: 컴퓨터전자공학과 학점 3.74/4.5
           caption: Date Range (eg. 2016 - 2021)
 
   - title: A Little More About Me
