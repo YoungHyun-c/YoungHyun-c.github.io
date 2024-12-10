@@ -68,8 +68,7 @@ content:
   - title: 경력, 경험
     layout: list
     content:
-        - title: 인덕대학교
-          컴퓨터전자공학과 조교
+        - title: 인덕대학교<br>컴퓨터전자공학과 조교
           sub_title: 조교
           caption: 2022.02 ~ 2023.01 (1년)
           description: | # this will include new lines to allow paragraphs
