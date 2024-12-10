@@ -1,5 +1,12 @@
 # Site
-repository: sproogen/resume-theme
+# GENERAL SITE SETTINGS
+# title: This will be displayed as the website's name in your browser tab.
+title: 
+  # description: This will be meta HTML tag content. This can be ignored.
+  description: Personal website powered by Jekyll
+  # baseurl: The subpath of your site
+  # > set this to "", if you renamed the repository to <user>.github.io
+repository: YoungHyun-c/YoungHyun-c.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -19,8 +26,10 @@ website: https://github.com/YoungHyun-c?tab=repositories
 darkmode: false
 
 # Social links
+# For every social button you want to display, set your username or userid
+# If you do not use one of the following websites, then leave it empty
 github_username: YoungHyun-c
-youtube_username: yamyamcoding
+youtube_username: minichamchi7549
 
 # Additional icon links
 additional_links:
@@ -101,7 +110,7 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-remote_theme: sproogen/resume-theme
+remote_theme: YoungHyun-c/YoungHyun-c.github.io
 
 sass:
   sass_dir: _sass
@@ -109,3 +118,13 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
