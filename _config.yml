@@ -62,8 +62,7 @@ content:
             icon: fab fa-github
             url: https://github.com/YoungHyun-c?tab=repositories
         quote: >
-          
-        overview of the project (optional)
+          overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
   - title: Experience
