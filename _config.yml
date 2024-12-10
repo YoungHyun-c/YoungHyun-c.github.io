@@ -74,9 +74,9 @@ content:
         caption: 2022.02 ~ 2023.01 (1년)
     content:
       - layout: left
-      title: KMTL 기술부
-      sub_title: 사원
-      caption: 2021.07 ~ 2022.01 (7개월)
+        title: KMTL 기술부
+        sub_title: 사원
+        caption: 2021.07 ~ 2022.01 (7개월)
   - title: 학력
     layout: list
     content:
